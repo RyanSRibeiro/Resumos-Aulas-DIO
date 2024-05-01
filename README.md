@@ -25,3 +25,7 @@ mkdir ''Criação de um novo Repositório''
 git add "Para adicionar o que foi alterado no arquivo"
 
 git status "Para fazer a verificação do arquivo"
+
+git commit -m " " "Serve para exibir uma mensagem sobre o texto"
+
+touch "Criação de um novo arquivo"
