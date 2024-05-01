@@ -1,3 +1,4 @@
+# Resumos Git GitHUB
 
 Este documento é para dar breves Resumos sobre as aulas de dio sobre Git GitHUB
 [Digital Innovation](https://web.dio.me).
@@ -11,21 +12,36 @@ Este documento é para dar breves Resumos sobre as aulas de dio sobre Git GitHUB
 |------|---------|
 |Gravando Alterações no Repositório Local | [Resumos](https://web.dio.me/course/versionamento-de-codigo-com-git-e-github/learning/599dd3dd-d189-474f-a55c-22f37b4472da?back=/track/santander-2024-preparatorio-certificacao-aws&tab=undefined&moduleId=undefined)
 
-```
-git init
+## 👨‍💻 Códigos utilizados
+
+**git init** - "Para transformar em um repositorio git"
  
-git clone ''Feito para copiar um Repositório''
+**git clone + URL** - ''Feito para copiar um Repositório''
 
---global ''Definir se o Repositório é global''
+**--global** - ''Definir se o Repositório é global''
 
---local ''Definir se o Repositório é local''
+**--local** - ''Definir se o Repositório é local''
 
-mkdir ''Criação de um novo Repositório''
+**mkdir** - ''Criação de uma nova pasta''
 
-git add "Para adicionar o que foi alterado no arquivo"
+**cd** - "Utilizado para entrar na pasta através do git"
 
-git status "Para fazer a verificação do arquivo"
+**cd .git** - "Mudar para o diretório git"
 
-git commit -m " " "Serve para exibir uma mensagem sobre o texto"
+**ls** - "Para ver o conteúdo dentro do git"
 
-touch "Criação de um novo arquivo"
+**cat** - (nome do arquivo) "Para exibir o conteúdo dentro do arquivo"
+
+ **git remote** -v "Mostrar os repositorio que está conectado"
+
+ **git remote add origin + URL** - "Para conectar o repositorio local com o remoto"
+
+**git status** - "Exibir o status do arquivo"
+
+**touch** - "Para criar um arquivo"
+
+**git add + Nome do arquivo (selecionar todo colocar apenas um ''.'')** - "Para adicionar o arquivo para preparação"
+
+**git commit** -m"mensgem do commit" - "Para salvar o arquivo dentro de um commit"
+
+**git log** - "Exibir o commit criado"
