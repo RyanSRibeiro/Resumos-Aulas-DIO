@@ -1,5 +1,3 @@
-# Resumos Git GitHUB
-
 Este documento é para dar breves Resumos sobre as aulas de dio sobre Git GitHUB
 [Digital Innovation](https://web.dio.me).
 
@@ -45,3 +43,26 @@ Este documento é para dar breves Resumos sobre as aulas de dio sobre Git GitHUB
 **git commit** -m"mensgem do commit" - "Para salvar o arquivo dentro de um commit"
 
 **git log** - "Exibir o commit criado"
+
+
+## ❌Comandos utilizados para alterção de repositório
+
+**rm -rf + Nome do arquivo** - "Utilizado para apagar o arquivo desejado"
+
+**git restore + Nome do arquivo** - "Resgatar a última alteração feita no arquivo"
+
+**git commit --ammend -m"mensagem que deseja inserir"** - "Utilizado para alterar a mensagem dentro do commit"
+
+**git reset --soft + head do commit** - "Para resetar o commit e, colcocar na área de preparação"
+
+**git reset --hard** - "Apagar os arquivos dentro do commit"
+
+**git reflog** - "Mostrar com mais detalhes as alterações as modificações no commit"
+
+## 📤Comandos utilizados para enviar e baixar alterações de um repositorio remoto
+
+**git remote add origin + URL do repositorio** - "Enviar para o repositório remoto"
+
+**git push -u origin main** - "Enviar a alterações do repositorio local para o remoto"
+
+**git pull** - "Puxar as alterações do repositório remoto para o local"
